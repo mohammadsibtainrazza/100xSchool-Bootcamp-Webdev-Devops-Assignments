@@ -7,16 +7,20 @@
 .navbar{
     display: flex;
     width: 100%;
-    height: 8vh;    
-    background-color: lavender;
+    height: 60px; 
+    align-items: center;  
+    border-bottom: 1px solid rgb(216, 216, 216); 
+    /* background-color: lavender; */
 }
 .nav{
-    margin: 10px 40px;
+    padding: 0 40px;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
     display: flex;
+    height: 100%;
 }
+
 #navtitle h2{
     font-size: 20px;
     font-weight: 700;
@@ -26,19 +30,22 @@
     font-weight: 300;
 }
 .details{
-    margin-left: 50vw;
+    margin-left: auto;
     display: flex;
+    align-items: center;
+    height: 100%;
 }
 #search{
     border-radius: 10px;
-    margin: 5px 10px;
+    margin: 3px 10px;
     border: 0.5px solid grey;
-    height: 40px;
+    height: 36px;
+    padding: 0px 10px;
     width: 200px;
 }
 .dp{
-    height: 45px;
-    width: 45px;
+    height: 36px;
+    width: 36px;
     border-radius: 50%;
     margin: 5px 10px;
     background-color: aqua;
@@ -47,16 +54,16 @@
     display: flex;
 }
 .left{
-    background-color: aquamarine;
-    margin: 150px 0px;
+    /* background-color: aquamarine; */
+    margin-top: 150px;
 }
 .stitle{
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     margin: 0px 40px ;
     gap: 10px;
     padding: 2px 20px;
-    width: 290px;
+    width: 330px;
     align-items: center;
     height: 30px;
     border-radius: 20px;
@@ -71,7 +78,7 @@
 .hero-details{
     padding: 1px 30px;
     margin: 1px 10px;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 }
 .hero-details h1{
     font-size: 55px;
@@ -102,11 +109,11 @@
     color: white;
 }
 .right{
-    height: 100%;
-    margin: 10px 0px;
-    background-color: blanchedalmond;
+    margin: 0px 0px;
+    padding: 30px 50px;
+    /* background-color: blanchedalmond; */
 }
 #harkirat{
-    height: 400px;
-
+    height: 500px;
+    /* padding: 30px 20px;  */
 }
