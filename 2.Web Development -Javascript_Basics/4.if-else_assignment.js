@@ -5,8 +5,8 @@ function oddEven(num) {
     else {
         console.log("The number is odd");
     }
-}
 
+}
 
 
 oddEven(0);
